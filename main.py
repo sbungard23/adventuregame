@@ -92,7 +92,7 @@ def findIndex(string):
       here = True
   return here
 
-print("WELCOME TO THE GAME \n \nThis is a text based adventure game. Your objective is to escape by finding codes, keys, and hidden objects. You can explore different rooms by using the command 'move', then typing the direction (north, east, south, or west). At any time you can look at your position on a map by typing 'position'. You can get information about your surroundings by typing 'look around'. Any words you see that are in all caps are OBJECTS. You can look more closely at any of these objects while you are in the same rooms as them by typing 'examine' and the objects name when prompted. Be sure to spell everything correctly or the game may not respond. Always type in lowercase letters. \n")
+print("WELCOME TO THE GAME \n \nThis is a text based adventure game. Your objective is to escape by finding codes, keys, and hidden objects. You can explore different rooms by using the command 'move', then typing the direction (north, east, south, or west). At any time you can look at your position on a map by typing 'position'. You can get information about your surroundings by typing 'look around'. Any words you see that are in all caps are OBJECTS. You can look more closely at any of these objects while you are in the same room by typing 'examine' and the object's name when prompted. Be sure to spell everything correctly or the game may not respond. Always type in lowercase letters. \n")
 
 while escaped == False :
   currentIndex = rooms.index(currentPos)
